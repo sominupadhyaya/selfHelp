@@ -20,7 +20,7 @@ buttTwo.addEventListener("click", ()=>{
         count--
         buttTwo.textContent = 'Decrease!' //Just to change the name of the text in Second Box to "Decrease"
         counterDisplay.textContent = count
-        if(count == 0)buttTwo.textContent = 'Yamete Kuda Sai~' // A MEME
+        count === 0 ? buttTwo.textContent = 'Yamete Kuda Sai~' : null // A MEME
     }else{
         alert("FBI-YOU ARE WARNED TO NOT CLICK ANY FURTHER!") // Another MEME
     }
